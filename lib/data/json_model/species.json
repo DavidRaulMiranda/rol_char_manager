@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "species_name":"human",
+        "species_descr":"human desc",
+        "wound_thre":10,
+        "strain_thre":10,
+        "initial_exp":100
+    },
+    {
+        "id":1,
+        "species_name":"defel",
+        "species_descr":"defel desc",
+        "wound_thre":10,
+        "strain_thre":10,
+        "initial_exp":100
+    },
+    {
+        "id":1,
+        "species_name":"bothan",
+        "species_descr":"bothan desc",
+        "wound_thre":10,
+        "strain_thre":10,
+        "initial_exp":100
+    }
+]

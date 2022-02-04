@@ -1,0 +1,20 @@
+[
+  {
+    "id":1,
+    "career_name":"Ace",
+    "career_descr":"description of ace",
+    "career_skills":[
+      {"skill_id":1},
+      {"skill_id":2}
+    ]
+  },
+  {
+    "id":1,
+    "career_name":"Comander",
+    "career_descr":"comander  desc",
+    "career_skills":[
+      {"skill_id":1},
+      {"skill_id":2}
+    ]
+  }
+]

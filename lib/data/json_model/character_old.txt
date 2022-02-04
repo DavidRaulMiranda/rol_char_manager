@@ -1,0 +1,158 @@
+import 'dart:convert';
+
+List<Character> employeeFromJson(String str) =>
+    List<Character>.from(json.decode(str).map((x) => Character.fromJson(x)));
+
+String employeeToJson(List<Character> data) =>
+    json.encode(List<dynamic>.from(data.map((x) => x.toJson())));
+
+class Character {
+  //varaible items
+  int? hp;
+  int? tns;
+  int? protectiopn;
+  int? defense;
+  int? encumbrance;
+  int? credits;
+  int? exp;
+  //List<String> status;
+  //inventory idref,idunique  number equiped?  atatchement?
+  //variable items
+  //mostly constant
+  int? maxhp;
+  int? maxtns;
+  String? playerName;
+  String? charName;
+  String? race;
+  String? profession;
+  String? especiality;
+  //mostly constant
+  //characterisitics
+  int? fortaleza;
+  int? agilidad;
+  int? intelecto;
+  int? astucia;
+  int? voluntad;
+  int? presencia;
+  //characterisitics
+  //skills
+  //skills
+  //talents
+  //talents
+  Character(
+      {this.hp,
+      this.tns,
+      this.protectiopn,
+      this.defense,
+      this.encumbrance,
+      this.credits,
+      this.exp,
+      //this.status;
+      //inventory idref,idunique  number equiped?  atatchement?
+      //variable items
+      this.maxhp,
+      this.maxtns,
+      this.playerName,
+      this.charName,
+      this.race,
+      //this.profession,
+      //this.especiality,
+      //characterisitics
+      this.fortaleza,
+      this.agilidad,
+      this.intelecto,
+      this.astucia,
+      this.voluntad,
+      this.presencia});
+  Character.fromForm(
+      this.hp,
+      this.tns,
+      this.protectiopn,
+      this.defense,
+      this.encumbrance,
+      this.credits,
+      this.exp,
+      //this.status;
+      //inventory idref,idunique  number equiped?  atatchement?
+      //variable items
+      this.maxhp,
+      this.maxtns,
+      this.playerName,
+      this.charName,
+      this.race,
+      //this.profession,
+      //this.especiality,
+      //characterisitics
+      this.fortaleza,
+      this.agilidad,
+      this.intelecto,
+      this.astucia,
+      this.voluntad,
+      this.presencia);
+  factory Character.fromJson(Map<String, dynamic> json) => Character(
+      //variable items
+      hp: json["hp"],
+      tns: json["tns"],
+      protectiopn: json["protectiopn"],
+      defense: json["defense"],
+      encumbrance: json["encumbrance"],
+      credits: json["credits"],
+      exp: json["exp"],
+      //this.status;
+      //inventory idref,idunique  number equiped?  atatchement?
+      //end variable items
+      maxhp: json["maxhp"],
+      playerName: json["playerName"],
+      charName: json["charName"],
+      race: json["race"],
+      //profession:   json["profession"],
+      //especiality:  json["especiality"],
+      //characterisitics
+      fortaleza: json["fortaleza"],
+      agilidad: json["agilidad"],
+      intelecto: json["intelecto"],
+      astucia: json["astucia"],
+      voluntad: json["voluntad"],
+      presencia: json["presencia"]
+      //skills
+      //skills
+      //talents
+      //talents
+      //Wounds
+      //wonds
+      );
+
+  Map<String, dynamic> toJson() => {
+        //variable items
+        "hp": hp,
+        "tns": tns,
+        "protectiopn": protectiopn,
+        "defense": defense,
+        "encumbrance": encumbrance,
+        "credits": credits,
+        "exp": exp,
+        //this.status;
+        //inventory idref,idunique  number equiped?  atatchement?
+        //variable items
+        //low variability
+        "maxhp": maxhp,
+        "playerName": playerName,
+        "charName": charName,
+        "race": race,
+        //"profession":profession,
+        //"especiality":especiality,
+        //low variability
+        //characterisitics
+        "fortaleza": fortaleza,
+        "agilidad": agilidad,
+        "intelecto": intelecto,
+        "astucia": astucia,
+        "voluntad": voluntad,
+        "presencia": presencia
+        //characteristics
+        //skills
+        //skills
+        //talents
+        //talents
+      };
+}

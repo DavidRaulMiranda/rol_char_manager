@@ -1,0 +1,41 @@
+[
+    {
+        "player":"David",
+        "character":"Rico",
+        "job":"Pilot",
+        "race":"Droid",
+        "maxhp":10,
+        "maxtns":10,
+        "maxdef":10,
+        "hp":10,
+        "tns":10,
+        "def":4,
+        "status":[
+            {
+                "name":"bleeding",
+                "info":"-4 hp/round",
+                "tier":2
+            }
+        ]
+    },
+    {
+        "player":"Rin",
+        "character":"Pico",
+        "job":"Merc",
+        "race":"Trandoshian",
+        "maxhp":20,
+        "maxtns":20,
+        "maxdef":20,
+        "hp":15,
+        "tns":12,
+        "def":8,
+        "status":[
+            {
+                "name":"bleeding",
+                "info":"-4 hp/round * tier",
+                "tier":2
+            }
+        ]
+        
+    }
+]

@@ -1,0 +1,40 @@
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+
+class GenericAppCard extends StatefulWidget {
+  final Widget child;
+
+  const GenericAppCard({Key? key, required this.child}) : super(key: key);
+
+  @override
+  GenericAppCardState createState() => GenericAppCardState();
+}
+
+class GenericAppCardState extends State<GenericAppCard> {
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      mainAxisSize: MainAxisSize.max,
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: [
+        Card(
+          margin: EdgeInsets.all(20.0),
+          color: Colors.white,
+          child: Container(
+            padding: EdgeInsets.all(10.0),
+            child: widget.child,
+            decoration: BoxDecoration(
+                color: Colors.white,
+                border: Border.all(color: Colors.black),
+                boxShadow: const [
+                  BoxShadow(
+                    color: Colors.black,
+                    offset: Offset(10.0, 10.0),
+                  )
+                ]),
+          ),
+        )
+      ],
+    );
+  }
+}

@@ -1,0 +1,15 @@
+[
+    {
+      "id":1,
+      "caract_id":1,
+      "skill_name":"coordination",
+      "skill_desc":"In the course of adventures, characters sometimes find  themselves needing to stay stable on unsteady surfaces, crawl through narrow openings, or even land safely after a fall. Overcoming these types of challenges requires a sense of balance and a heightened degree of flexibility, both of which are represented by the Coordination skill. Coordination serves as a measure of your character’s  flexibility, sure-footedness, and hand-eye coordination."
+    },
+    {
+        "id":2,
+        "caract_id":4,
+        "skill_name":"cool",
+        "skill_desc":"Staying calm and maintaining composure, outwaiting  an opponent, generally being cool: these exemplify things your character does with the Cool skill. Cool is  something of a defensive skill in nature, since it most often comes up as the skill your character uses to resist attempts to sway or affect them. Cool also represents how your character appears to other people. If your character doesn’t want to show that something affected them, they would use the Cool skill to keep their emotions invisible.Even though Cool isn’t a social skill, it is often used in social encounters. If you want to make a character who is particularly effective in social encounters, you may want to invest in Cool."
+    }
+  
+]

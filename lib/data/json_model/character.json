@@ -1,0 +1,20 @@
+[
+    {
+      "id":1,
+      "char_name":"MARK",
+      "char_sur_name":"LADA",
+      "char_avatar":"",
+      "char_descr":"PILOTO PIRATA",
+      "char_species":1,
+      "cahr_spec":1
+    },
+    {
+        "id":2,
+        "char_name":"TIMOTHY",
+        "char_sur_name":"BESKAR",
+        "char_avatar":"",
+        "char_descr":"GUARDIA",
+        "char_species":2,
+        "cahr_spec":2
+    }
+  ]

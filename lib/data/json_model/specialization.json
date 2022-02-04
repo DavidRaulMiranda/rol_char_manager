@@ -1,0 +1,32 @@
+[
+    {
+      "id":1,
+      "id_career":1,
+      "career_name":"Gunner",
+      "career_descr":"description of guner",
+      "career_skills":[
+        {"skill_id":1},
+        {"skill_id":2}
+      ]
+    },
+    {
+      "id":2,
+      "id_career":1,
+      "spec_name":"Driver",
+      "spec_descr":"driver spec desc  ",
+      "spec_skills":[
+        {"skill_id":1},
+        {"skill_id":2}
+      ]
+    },
+    {
+        "id":2,
+        "id_career":2,
+        "spec_name":"Tactitian",
+        "spec_descr":"tactitian desc",
+        "spec_skills":[
+          {"skill_id":1},
+          {"skill_id":2}
+        ]
+    }
+]
