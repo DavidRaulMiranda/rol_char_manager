@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:rol_char_manager/Logic/controller/logic_character_add.dart';
 import 'package:rol_char_manager/Logic/obj/character.dart';
 import 'package:rol_char_manager/Widgets/generic/validator_textfield.dart';
 import 'package:rol_char_manager/data/constants.dart';
